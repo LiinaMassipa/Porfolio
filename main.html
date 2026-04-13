@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="left">
+            <h1 class="logo">Liina Massipa</h1>
+        </div>
+        <div class="right">
+            <a href="http://github.com/LiinaMassipa" target="_blank">
+                <i class="fab fa-github"></i><span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/liina-massipa-984b85349/" target="_blank">
+                <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+            </a>
+            <a href="mailto:liinamassipa@outlook.com">
+                <i class="far fa-envelope"></i><span>Email</span>
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger">☰</button>
+    </nav>
+
+    <div class="responsive-menu" id="responsiveMenu">
+        <a href="http://github.com/LiinaMassipa" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/liina-massipa-984b85349/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:liinamassipa@outlook.com"><i class="far fa-envelope"></i> Email</a>
+    </div>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, dear humans and Martians! 🌸</p>
+                <h2>I'm <span class="highlight">Liina</span>,<br>a Simple Software Developer.</h2>
+                <p class="hero-desc">With a passion for creating innovative solutions. There's still a long way to go and I'm loving every step. Don't hesitate to reach out if you want to collab!</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View my work</a>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQGOco8yWZd_NQ/profile-displayphoto-scale_400_400/B4DZg86rPfHAAg-/0/1753368672383?e=1777507200&v=beta&t=B2leT7ZOLDlEIXoLNOtGioJ93ZsXONpthXsalHGn8Ig" alt="Liina Massipa">
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills-section" id="skills">
+            <h3 class="section-title">Tech Powers</h3>
+            <p class="section-sub">Technologies I work with</p>
+
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Skills</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+                <button class="filter-btn" data-filter="learning">Learning</button>
+            </div>
+
+            <div class="skills-grid" id="skillsGrid">
+                <div class="skill-card" data-category="frontend"><i class="fab fa-html5"></i><span>HTML</span></div>
+                <div class="skill-card" data-category="frontend"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                <div class="skill-card" data-category="frontend"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                <div class="skill-card" data-category="frontend"><i class="fab fa-java"></i><span>Java</span></div>
+                <div class="skill-card" data-category="tools"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                <div class="skill-card" data-category="tools"><img src="imgs/icons8-postman-api-64.png" alt="Postman"><span>Postman</span></div>
+                <div class="skill-card" data-category="tools"><img src="imgs/icons8-scene-builder-64.png" alt="Scene Builder"><span>Scene Builder</span></div>
+                <div class="skill-card" data-category="tools"><i class="fab fa-github"></i><span>GitHub</span></div>
+                <div class="skill-card" data-category="learning"><i class="fab fa-react"></i><span>React</span></div>
+                <div class="skill-card" data-category="learning"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                <div class="skill-card" data-category="learning"><img src="imgs/icons8-tailwindcss-48.png" alt="Tailwind CSS"><span>Tailwind CSS</span></div>
+                <div class="skill-card" data-category="learning"><i class="fab fa-python"></i><span>Python</span></div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects-section" id="projects">
+            <h3 class="section-title">Projects</h3>
+            <p class="section-sub">Things I've built so far ^_^</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-top"><i class="fas fa-code"></i></div>
+                    <h4>Simple Food Site</h4>
+                    <p>A simple food recipe website built with HTML, CSS, and JavaScript.</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-top"><i class="fas fa-list"></i></div>
+                    <h4>To-Do list</h4>
+                    <p>A simple to-do list application built with HTML, CSS, and JavaScript.</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-top"><i class="fas fa-database"></i></div>
+                    <h4>Coming Soon!</h4>
+                    <p>A new project is on the way ^_^</p>
+                    <div class="project-tags"><span>Node.js</span><span>Java</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built by <strong>Liina Massipa </strong><span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
