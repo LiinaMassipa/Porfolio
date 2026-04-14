@@ -65,7 +65,7 @@ It's important to understand:
 
 + HTML Structure - Organizing content with headings, paragraphs, and divs
 
-+ CSS Styling - Using design tokens, margin, padding, borders, and background colors
++ CSS Styling - Using design tokens, margin, padding, borders, and background colors. cant emphasize more css is higlhy important!
 
 + Responsive Design - Making layouts work on all screen sizes
 
