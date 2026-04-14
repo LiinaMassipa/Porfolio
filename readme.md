@@ -28,12 +28,12 @@ A simple, responsive portfolio website built with Vanilla JavaScript, HTML and C
 ## Project Structure 
 
 portfolio/
-│
-├── imgs       # Icon images folder
-├── main.html  # Main HTML file
-├── style.css  # CSS styles
-├── script.js  # the logic 
-└── README.md  # Project documentation 
+├── imags/          # Icon images folder
+├── main.html        # Main HTML file
+├── style.css        # CSS styles
+├── script.js        # The logic
+└── README.md        # Project documentation
+
 
 
 -------------------------------------------
@@ -65,7 +65,7 @@ It's important to understand:
 
 + HTML Structure - Organizing content with headings, paragraphs, and divs
 
-+ CSS Styling - Using design tokens, margin, padding, borders, and background colors
++ CSS Styling - Using design tokens, margin, padding, borders, and background colors. cant emphasize more css is higlhy important!
 
 + Responsive Design - Making layouts work on all screen sizes
 
