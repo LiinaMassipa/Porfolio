@@ -29,11 +29,11 @@ A simple, responsive portfolio website built with Vanilla JavaScript, HTML and C
 
 portfolio/
 │
-├──imgs # Icon images folder
-├── main.html # Main HTML file
-├── style.css # CSS styles
-├──script.js # the logic 
-└── README.md # Project documentation 
+├── imgs       # Icon images folder
+├── main.html  # Main HTML file
+├── style.css  # CSS styles
+├── script.js  # the logic 
+└── README.md  # Project documentation 
 
 
 -------------------------------------------
