@@ -90,7 +90,7 @@ nav {
     color: var(--primary);
 }
 
-.mobile-menu {
+.responsiveMenu{
     display: none;
     position: fixed;
     top: 70px;
@@ -104,13 +104,13 @@ nav {
     border-bottom: 1px solid var(--border);
 }
 
-.responsive-menu a {
+.responsiveMenu a {
     padding: 10px;
     color: var(--text-muted);
     text-decoration: none;
 }
 
-.responsive-menu.open {
+.responsiveMenu.open {
     display: flex;
 }
 
